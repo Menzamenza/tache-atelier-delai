@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-item .nav-link:hover{
+    color: rgb(103, 103, 216);
+    border-bottom: 1px solid rgb(103, 103, 216);
+}
+.first{
+    background-image: url("./img/fond.jpg");
+    background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+}
+.carte{
+    transition: background-color 1.5s ease-in-out; 
+}
+.carte:hover{
+    background-color:blue;
+    color: white;
+}
+.nave{
+    z-index: 100;
+}
+.about1{
+    background-color: rgb(247, 250, 252);
+}
+.aboutt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    width: 100px;
+}
+.p p{
+    font-size: 10px;
+}
+.bare80{
+    width: 80%;
+}
+.bare90{
+    width: 90%;
+}
+.logos img{
+    width: 90px;
+}
+#service .card:hover{
+    box-shadow: 5px 5px 20px 10px rgb(214, 228, 236);
+    border: none;
+}
+.service .card:hover span{
+    border: 1px solid blue;
+}
+.service .card:hover .fw-bold{
+    color: blue;
+}

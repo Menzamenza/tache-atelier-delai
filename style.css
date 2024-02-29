@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+
+}
 .nav-item .nav-link:hover{
     color: rgb(103, 103, 216);
     border-bottom: 1px solid rgb(103, 103, 216);
@@ -67,5 +71,16 @@
     height: 40px;
     border-radius: 50%;
     border: 1px dashed blue;
-
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/téléchargement.jpeg");
+    background-size: cover;
+    height: 70vh;
 }
